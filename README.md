@@ -84,21 +84,13 @@ void push_button();
 bool button_status;
 int main(void)
 {
-
   HAL_Init();
-
   SystemClock_Config();
-
-  
-
- 
   MX_GPIO_Init();
  
   while (1)
   {
-  
-	  push_button();
-
+  	  push_button();
   }
   /* USER CODE END 3 */
 }
@@ -174,9 +166,6 @@ static void MX_GPIO_Init(void)
 
 }
 
-
-
-
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
@@ -202,8 +191,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ```
-
-
 
 ## Output screen shots of proteus  :
 ![image](https://github.com/Pranav-AJ/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118904526/e0530b1e-446a-4b0e-8cf4-bf496261c935)
